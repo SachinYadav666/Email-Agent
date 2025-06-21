@@ -1,0 +1,31 @@
+# Core dependencies
+django
+djangorestframework
+django-environ>=0.11.2
+langchain
+langchain-groq
+langchain-community
+langgraph
+tavily-python
+
+# LLM and AI related
+groq
+tiktoken
+
+# Search and utilities
+langchainhub
+
+# Type hints and extensions
+typing-extensions
+
+# Output parsing and formatting
+pydantic
+json5
+
+# Development and testing
+python-dotenv
+requests
+psycopg2-binary  # for PostgreSQL
+
+
+pip install -U langchain-tavily 
